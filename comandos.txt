@@ -1,0 +1,34 @@
+yarn create react-app web --template typescript
+yarn add react-router-dom
+yarn add @types/react-router-dom
+
+
+yarn init -y - CRIAR o package.json
+
+yarn add typescript -D - criar o typescript na depedencia de desenvolvimento
+yarn tsc --init cria o arquivo de configuração do typescript
+yarn add ts-node-dev -D - adicione o node no desenvolvimento
+
+yarn add express - e um micro framework
+yarn add express
+
+yarn add knex sqlite3 - add banco
+yarn add cors - permite que o endereço acesso a API
+yarn add axios - facilita a consumir API externas
+
+
+## Mobile
+expo init mobile -( Seleciona o blank typescript
+
+https://github.com/expo/google-fonts
+
+expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
+
+## Instalar navegação
+yarn add @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add @react-navigation/stack
+yarn add @react-navigation/bottom-tabs
+
+adicionar banco de dados no dispositivo
+expo install @react-native-community/async-storage
